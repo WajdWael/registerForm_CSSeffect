@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next-steps project</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <form action="#" class="form">
+
+        <!--======= Title =======-->
+        <h1 class="text-center">Registration Form</h1>
+
+            <!-- Progress bar -->
+            <div class="progressbar">
+                <div class="progress" id="progress"></div>
+                <div class="progress-step step-active" data-title="Intro"></div>
+                <div class="progress-step" data-title="Contact"></div>
+                <div class="progress-step" data-title="ID"></div>
+                <div class="progress-step" data-title="Password"></div>
+            </div>
+        <!-- steps -->
+
+        <!--==== THE-FIRST ====-->
+        <div class="form-step form-step-active">
+            <!--=== first input ===-->
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" />
+            </div>
+
+            <!--=== second input ===-->
+            <div class="input-group">
+                <label for="position">Position</label>
+                <input type="text" name="position" id="position" />
+            </div>
+
+            <!--=== Button ===-->
+            <div class="">
+                <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+            </div>
+        <!--==== END ====-->
+        </div>
+
+        <!--======= THE-SECOND =======-->
+        <div class="form-step">
+            <!--=== first input ===-->
+            <div class="input-group">
+                <label for="phone">Phone</label>
+                <input type="number" name="phone" id="phone" />
+            </div>
+
+            <!--=== second input ===-->
+            <div class="input-group">
+                <label for="email">Your Email</label>
+                <input type="email" name="email" id="email" />
+            </div>
+
+            <!--=== Buttons ===-->
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Prev</a>
+                <a href="#" class="btn btn-next">Next</a>
+            </div>
+        <!--==== END ====-->
+        </div>
+
+        <!--======= THE-THIRD =======-->
+        <div class="form-step">
+
+            <!--=== first input ===-->
+            <div class="input-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" />
+            </div>
+
+            <!--==== Second input ====-->
+            <div class="input-group">
+                <label for="Id">National ID</label>
+                <input type="number" name="Id" id="Id" />
+            </div>
+
+            <!--==== Buttons ====-->
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Prev</a>
+                <a href="#" class="btn btn-next">Next</a>
+            </div>
+        <!--==== END ====-->
+        </div>
+
+        <!--======= THE-Fourth =======-->
+        <div class="form-step">
+            <!--==== first input ====-->
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" />
+            </div>
+
+            <!--==== seocnd input ====-->
+            <div class="input-group">
+                <label for="confirmpassword">Confirm Password</label>
+                <input type="password" name="confirmpassword" id="confirmpassword" />
+            </div>
+
+            <!--==== Buttons ====-->
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Prev</a>
+                <input type="submit" value="submit" class="btn" />
+            </div>
+        <!--==== END ====-->
+        </div>
+
+        <!-- END -->
+    </form>
+</body>
+</html>
